@@ -1,0 +1,9 @@
+numpy
+torch
+pillow
+ipython
+youtube-dl
+ffmpeg-python
+opencv-python
+fastai==1.0.51
+python-telegram-bot
