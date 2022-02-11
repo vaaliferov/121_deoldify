@@ -7,3 +7,10 @@ ffmpeg-python
 opencv-python
 fastai==1.0.51
 python-telegram-bot
+
+# https://github.com/pytorch/pytorch/issues/72045
+# -f https://download.pytorch.org/whl/torch_stable.html
+# torch==1.10.2+cpu
+
+# https://download.pytorch.org/whl/cpu/torch-1.10.2%2Bcpu-cp39-cp39-linux_x86_64.whl
+# https://download.pytorch.org/whl/cpu/torch-1.10.2-cp38-cp38-manylinux2014_aarch64.whl

@@ -19,21 +19,21 @@ sed -i "s/<name>/$NAME/g" $SERVICE_FILE_PATH
 sed -i "s/<user>/$USER/g" $SERVICE_FILE_PATH
 
 mkdir $DIR $DIR/env $DIR/models
-apt install -y wget python3-opencv
+apt install -y wget git python3-opencv
 apt install -y python3-pip python3-venv
 pip3 install -U virtualenv
 python3 -m venv $DIR/env
 
 source $DIR/env/bin/activate
-pip3 install cython wheel
-pip3 install -r requirements.txt
+pip3 install --no-cache-dir cython wheel
+pip3 install --no-cache-dir -r requirements.txt
 deactivate
 
 cp -r . $DIR
 wget $MODEL_URL -O $DIR/models/$MODEL_FILE_NAME
-git clone $DEOLDIFY_REPO_URL $DIR/
-mv $DIR/DeOldify/deoldify $DIR
-rm -rf $DIR/DeOldify
+git clone $DEOLDIFY_REPO_URL $DIR/repo
+mv $DIR/repo/deoldify $DIR/
+rm -rf $DIR/repo
 
 chmod 755 $DIR
 chown -R $USER:$USER $DIR
