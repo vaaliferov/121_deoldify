@@ -1,16 +1,16 @@
-numpy
-torch
-pillow
-ipython
-youtube-dl
-ffmpeg-python
-opencv-python
-fastai==1.0.51
-python-telegram-bot
+-f https://download.pytorch.org/whl/torch_stable.html
 
-# https://github.com/pytorch/pytorch/issues/72045
-# -f https://download.pytorch.org/whl/torch_stable.html
-# torch==1.10.2+cpu
+wget==3.2
+numpy==1.26.4
+pillow==10.2.0
+fastai==2.7.14
+ipython==8.22.1
+torch==2.2.1+cpu
+yt-dlp==2023.12.30
+ffmpeg-python==0.2.0
+torchvision==0.17.1+cpu
+opencv-python==4.9.0.80
+python-telegram-bot==20.8
 
 # https://download.pytorch.org/whl/cpu/torch-1.10.2%2Bcpu-cp39-cp39-linux_x86_64.whl
 # https://download.pytorch.org/whl/cpu/torch-1.10.2-cp38-cp38-manylinux2014_aarch64.whl
