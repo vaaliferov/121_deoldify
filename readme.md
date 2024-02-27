@@ -1,5 +1,7 @@
-* [Demo (bot)](https://t.me/vaaliferov_deoldify_bot)
-* [DeOldify (github)](https://github.com/jantic/DeOldify)
+### DeOldify
+
+* model: ColorizeArtistic ([DeOldify](https://github.com/jantic/DeOldify))
+* demo: https://t.me/vaaliferov_deoldify_bot
 
 ```bash
 python3 -m venv env
