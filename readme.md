@@ -1,4 +1,4 @@
-### DeOldify
+### DeOldify: Image Colorizer
 
 * model: ColorizeArtistic ([DeOldify](https://github.com/jantic/DeOldify))
 * demo: https://t.me/vaaliferov_deoldify_bot
